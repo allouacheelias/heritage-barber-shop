@@ -215,8 +215,8 @@ body.barber_version .first-section h2 {
 
 
 body.barber_version .container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 body.barber_version .logo-sidebar {
