@@ -32,9 +32,9 @@
   -ms-transform-origin: 100% 100%;
   -webkit-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
-  -moz-animation: folding 3s infinite linear both;
-  -webkit-animation: folding 3s infinite linear both;
-  animation: folding 3s infinite linear both;
+  -moz-animation: folding 2.5s infinite linear both;
+  -webkit-animation: folding 2.5s infinite linear both;
+  animation: folding 2.5s infinite linear both;
 }
 .cube-folding .leaf2 {
   -moz-transform: rotateZ(90deg) scale(1.1);
@@ -43,9 +43,9 @@
   transform: rotateZ(90deg) scale(1.1);
 }
 .cube-folding .leaf2::before {
-  -moz-animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
   background-color: #f2f2f2;
 }
 .cube-folding .leaf3 {
@@ -55,9 +55,9 @@
   transform: rotateZ(270deg) scale(1.1);
 }
 .cube-folding .leaf3::before {
-  -moz-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -moz-animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
   background-color: #f2f2f2;
 }
 .cube-folding .leaf4 {
@@ -67,9 +67,9 @@
   transform: rotateZ(180deg) scale(1.1);
 }
 .cube-folding .leaf4::before {
-  -moz-animation-delay: 0.7s;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -moz-animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
   background-color: #e6e6e6;
 }
 
@@ -156,9 +156,9 @@
   -webkit-border-radius: 100%;
   border-radius: 100%;
   z-index: 1;
-  -moz-animation: shadow 1s ease infinite alternate;
-  -webkit-animation: shadow 1s ease infinite alternate;
-  animation: shadow 1s ease infinite alternate;
+  -moz-animation: shadow 0.5s ease infinite alternate;
+  -webkit-animation: shadow 0.5s ease infinite alternate;
+  animation: shadow 0.5s ease infinite alternate;
 }
 .cube-wrapper .loading {
   font-size: 12px;
@@ -168,9 +168,9 @@
   position: relative;
   top: 25px;
   z-index: 2;
-  -moz-animation: text 1.5s ease infinite alternate;
-  -webkit-animation: text 1.5s ease infinite alternate;
-  animation: text 1.5s ease infinite alternate;
+  -moz-animation: text 0.5s ease infinite alternate;
+  -webkit-animation: text 0.5s ease infinite alternate;
+  animation: text 0.5s ease infinite alternate;
 }
 
 @-moz-keyframes text {
